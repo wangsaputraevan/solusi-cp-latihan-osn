@@ -19,7 +19,7 @@ int main(int argc, char* argv[]) {
 		else { cout << (b - c); return 0; }
 	}
 	
-	for (int i = 1; (i*i <= r) && r; i++) {
+	for (ll i = 1; (i*i <= r) && r; i++) {
 	 	if (r % i == 0) {
 	 		ll x = r / i;
 			if (x > d && x <= b) count++;
